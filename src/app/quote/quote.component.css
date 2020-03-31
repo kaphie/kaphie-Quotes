@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  width: 300px;
+  border: none;
+  margin: 10px 10px 2%;
+  background-color: aliceblue;
+}
+.quote{
+  margin: 50px 10px 10px 10px;
+  font-family: 'Source Code Pro', cursive;
+  font-weight: normal;
+  font-size: 19px;
+
+}
+#author{
+  margin: 10px 10px 10px 10px;
+  font-family: 'Source Code Pro', cursive;
+  font-size: 16px;
+  font-weight: lighter;
+  color: gray;
+}
+#date, .date{
+  margin: 10px 10px 10px 10px;
+  font-family: 'Muli', cursive;
+  font-size: 14px;
+}
+.date{
+  color: purple;
+}
+.title {
+  margin: 8px;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+.footer{
+  margin: 20px 10px 10px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer p{
+margin-top: 10px;
+}
+
+.card-header {
+  background-color: #293462;
+  color: white;
+  border: none;
+  height: 40px;
+}
+.del{
+  background-image: url("~src/assets/toggle.png");
+  height: 27px;
+  width: 27px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.quotes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.small-b {
+  margin-left: 20px;
+}
+
+.small-b {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.small-b button {
+  margin: 10px;
+}
+
+
+.search {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #66000000;
+  border-bottom: 1px solid white;
+  margin-top: -15px;
+}
+
+input::placeholder {
+  color: wheat;
+  text-align: center;
+  font-size: 23px;
+}
+
+input {
+  color: orange;
+  text-align: center;
+  font-size: 40px;
+}
+
+#sbar {
+  position: sticky;
+  z-index: 1;
+  top: 0;
+  padding-top: 10px;
+}
+.vote-btn-like{
+  background-image: url("~src/assets/like.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}
+.vote-btn-dislike{
+  background-image: url("~src/assets/dislike.png");
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  background-position:center center;
+  border-radius: 50%;
+}

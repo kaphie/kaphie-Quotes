@@ -7,6 +7,7 @@ import { DashComponent } from './dash/dash.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingComponent } from './landing/landing.component';
 import { QuoteComponent } from './quote/quote.component';
+import { QuoteBodyComponent } from './quote-body/quote-body.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { QuoteComponent } from './quote/quote.component';
     DashComponent,
     HeaderComponent,
     LandingComponent,
-    QuoteComponent
+    QuoteComponent,
+    QuoteBodyComponent
   ],
   imports: [
     BrowserModule,

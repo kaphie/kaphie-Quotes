@@ -1,8 +1,30 @@
-.dash {
+#buttons {
   display: flex;
+  justify-content: space-evenly;
 }
 
-* {
-  margin: 0;
-  padding: 0;
+.sb {
+  position: sticky;
+  top: 0px;
+}
+
+button {
+  margin: 0px;
+  border-radius: 10px;
+}
+
+.logo {
+  background-image: url("~src/assets/logoq.png");
+  height: 80px;
+  z-index: 4;
+  width: 80px;
+  border-radius: 50%;
+  margin-top: 8px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.sort-text {
+  margin-top: 8px;
 }

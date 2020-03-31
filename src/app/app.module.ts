@@ -11,6 +11,7 @@ import { QuoteBodyComponent } from './quote-body/quote-body.component';
 import { HighlightDirective } from './highlight.directive';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { FilterPipe } from './filter.pipe';
+import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FilterPipe } from './filter.pipe';
     QuoteBodyComponent,
     HighlightDirective,
     QuoteFormComponent,
-    FilterPipe
+    FilterPipe,
+    QuoteVoteComponent
   ],
   imports: [
     BrowserModule,

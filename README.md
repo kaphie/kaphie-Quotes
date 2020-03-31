@@ -1,6 +1,12 @@
-# Quotes
+# Qoutes
+Quoty is a website that displays quotes, alows users to add their own quotes and upvote or downvote to existing quotes.
+## Author:
+> Kafrika Benitah
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.7.
+## Screenshot:
+<img src="src/assets/screenshot.png" width="1000">
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 
 ## Development server
 

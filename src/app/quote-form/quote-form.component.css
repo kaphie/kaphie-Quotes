@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch&display=swap');
+.form {
+  padding: 20px;
+}
+.new{
+  font-size: 36px;
+  color: yellow;
+  font-family: 'Cabin Sketch', cursive;
+}
+
+input,
+textarea {
+  margin-right: 10px;
+}
+
+label{
+  color: orange;
+  margin: 10px;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.btn{
+  margin-top: 10px;
+}
+.btn-info{
+  height: 40px;
+}

@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { LandingComponent } from './landing/landing.component';
 import { QuoteComponent } from './quote/quote.component';
 import { QuoteBodyComponent } from './quote-body/quote-body.component';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { QuoteBodyComponent } from './quote-body/quote-body.component';
     HeaderComponent,
     LandingComponent,
     QuoteComponent,
-    QuoteBodyComponent
+    QuoteBodyComponent,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,

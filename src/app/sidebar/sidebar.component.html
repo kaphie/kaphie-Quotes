@@ -1,5 +1,13 @@
-<app-header></app-header>
-<div class="row">
-    <!-- <app-sidebar class="col-sm-3"></app-sidebar> -->
-    <app-landing class="col-sm-12"></app-landing>
+<div class="container sb col-sm-12">
+  <div class="holder">
+    <div class="logo d-block mx-auto"></div>
+    <h3 class="text-center sort-text">Sort quotes by:</h3>
+    <div id="buttons">
+      <button class="btn btn-info">Date</button>
+      <button class="btn btn-info">Author</button>
+      <button class="btn btn-info">Name</button>
+    </div>
+<!--    <h1>{{quote.title}}</h1>-->
+    <app-quote-form (addQoute)="addNewQuote($event)"></app-quote-form>
+  </div>
 </div>

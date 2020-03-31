@@ -14,6 +14,7 @@ import { FilterPipe } from './filter.pipe';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 import { DateCountPipe } from './date-count.pipe';
 import { SearchComponent } from './search/search.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SearchComponent } from './search/search.component';
     FilterPipe,
     QuoteVoteComponent,
     DateCountPipe,
-    SearchComponent
+    SearchComponent,
+    SidebarComponent
   ],
   imports: [
     BrowserModule,

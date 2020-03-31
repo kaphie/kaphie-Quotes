@@ -1,1 +1,24 @@
-<p>quote works!</p>
+<div class="kaphie row">
+  <app-quote-form class="col-sm-3 form" (addQoute)="addNewQuote($event)"></app-quote-form>
+  <div class="quotes col-sm-9">
+    <div class="card" *ngFor="let quote of quotes, let i = index" (Upvote)="upvote=$event">
+      <div>
+        <div class="card-header">
+          <h4 class="text-center title">{{quote.title}}</h4>
+          <div class="del" (click)="toggleQuote(i)"></div>
+        </div>
+        <p class="quote">{{quote.message}}</p>
+        <h5 id="author">~{{quote.author}}</h5>
+        <app-quote-body *ngIf="quote.showQuote" [quote]="quote" (isComplete)="deleteQuote($event, i)"></app-quote-body>
+        <div class="footer">
+          <p id="date">posted {{quote.date | dateCount}} day(s) ago</p>
+          <h6 class="text-center date">{{quote.date | date | uppercase}}</h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+

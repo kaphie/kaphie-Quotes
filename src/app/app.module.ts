@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DashComponent } from './dash/dash.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashComponent
+    DashComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -7,6 +7,13 @@ import {Quote} from '../quote';
   styleUrls: ['./sidebar.component.css']
 })
 export class SidebarComponent implements OnInit {
+  goals: any;
+  addNewQuote(goal){
+    let goalLength = this.goals.length;
+    goal.id = goalLength+1;
+    goal.completeDate = new Date(goal.completeDate)
+    this.goals.push(goal)
+  }
 
   @Input () quote: Quote;
 

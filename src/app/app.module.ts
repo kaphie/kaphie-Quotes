@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,7 +11,6 @@ import { QuoteComponent } from './quote/quote.component';
 import { QuoteBodyComponent } from './quote-body/quote-body.component';
 import { HighlightDirective } from './highlight.directive';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
-import { FilterPipe } from './filter.pipe';
 import { QuoteVoteComponent } from './quote-vote/quote-vote.component';
 import { DateCountPipe } from './date-count.pipe';
 import { SearchComponent } from './search/search.component';
@@ -26,7 +26,6 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     QuoteBodyComponent,
     HighlightDirective,
     QuoteFormComponent,
-    FilterPipe,
     QuoteVoteComponent,
     DateCountPipe,
     SearchComponent,
@@ -34,7 +33,8 @@ import { SidebarComponent } from './sidebar/sidebar.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

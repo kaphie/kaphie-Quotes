@@ -4,7 +4,7 @@ Quoty is a website that displays quotes, alows users to add their own quotes and
 > Kafrika Benitah
 
 ## Screenshot:
-<img src="src/assets/screenshot.png" width="1000">
+<img src="https://github.com/kaphie/kaphie-Quotes/blob/master/image/screencapture-localhost-4200-2020-03-28-19_27_29.png">
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
 

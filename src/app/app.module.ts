@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DashComponent } from './dash/dash.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingComponent } from './landing/landing.component';
+import { QuoteComponent } from './quote/quote.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashComponent,
     HeaderComponent,
-    LandingComponent
+    LandingComponent,
+    QuoteComponent
   ],
   imports: [
     BrowserModule,

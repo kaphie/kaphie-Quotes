@@ -1,6 +1,5 @@
 import {Component, OnInit, Output, EventEmitter} from '@angular/core';
 import {Quote} from '../quote';
-import {SweetAlert2Module} from '@sweetalert2/ngx-sweetalert2';
 
 @Component({
   selector: 'app-quote',

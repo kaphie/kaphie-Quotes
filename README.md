@@ -1,5 +1,5 @@
 # Qoutes
-Quotations is a website that displays quotes, alows users to add their own quotes and upvote or downvote to existing quotes.
+Quotation is a website that displays quotes, alows users to add their own quotes and upvote or downvote to existing quotes.
 ## Author:
 > Kafrika Benitah
 

@@ -1,5 +1,5 @@
 # Qoutes
-Quoty is a website that displays quotes, alows users to add their own quotes and upvote or downvote to existing quotes.
+Quotations is a website that displays quotes, alows users to add their own quotes and upvote or downvote to existing quotes.
 ## Author:
 > Kafrika Benitah
 
